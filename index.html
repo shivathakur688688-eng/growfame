@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GrowFame - Creator Services</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#101a2c;color:white;font-family:Arial,sans-serif}
+header{background:#19263b;padding:20px;font-size:25px;font-weight:bold}
+.container{max-width:700px;margin:auto;padding:20px}
+.hero{text-align:center;padding:45px 10px}
+.hero h1{font-size:38px;color:#35a1f5}
+.hero p{color:#bdc8d8;line-height:1.6}
+button{background:#2698ee;color:white;border:0;padding:13px 22px;border-radius:9px;font-size:16px}
+.card{background:#1c2c43;padding:20px;border-radius:14px;margin:18px 0}
+h2{color:#43a7ff}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.service{background:#293c57;padding:22px 10px;text-align:center;border-radius:12px}
+input,textarea{width:100%;padding:14px;margin:9px 0;background:#101a2c;border:1px solid #43546d;border-radius:8px;color:white}
+footer{text-align:center;padding:25px;color:#9baabd}
+</style>
+</head>
+<body>
+<header>✦ GROWFAME</header>
+<div class="container">
+<section class="hero">
+<h1>Grow Your Fame!</h1>
+<p>Everything creators need in one place.</p>
+<button onclick="document.getElementById('services').scrollIntoView()">Explore Now</button>
+</section>
+
+<div class="card">
+<h2>Welcome to GrowFame</h2>
+<p>Discover creative tools and services to build your online presence.</p>
+</div>
+
+<div class="card" id="services">
+<h2>Our Services</h2>
+<div class="grid">
+<div class="service">📸<h3>Instagram</h3><p>Creator tools</p></div>
+<div class="service">▶️<h3>YouTube</h3><p>Creator tools</p></div>
+<div class="service">🎨<h3>Thumbnails</h3><p>Design services</p></div>
+<div class="service">📝<h3>Scripts</h3><p>Writing services</p></div>
+</div>
+</div>
+
+<div class="card">
+<h2>Contact Us</h2>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea placeholder="Your Message" rows="4"></textarea>
+<button onclick="alert('Please connect a support email to send your message.')">Send Message</button>
+</div>
+</div>
+<footer>© 2026 GrowFame | All Rights Reserved</footer>
+</body>
+</html>
